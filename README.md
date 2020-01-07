@@ -1,3 +1,12 @@
+# Purpose
+
+- Present an opinionated take on a water-cooled, medium/high-end gaming PC.
+- Solicit feedback from nerd friends on this opinionated take.
+- Act as a detailed parts list for McGarvey's new gaming PC build.
+- Avoid some of the obvious mistakes Chinigo made during his recent gaming PC build.
+- Act as checklist for the tools Chinigo will need to loan to McGarvey.
+- Act as checklist for steps to actually build the thing.
+
 # Parts
 
 ## Components
