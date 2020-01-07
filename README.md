@@ -118,6 +118,8 @@
 1. Disconnect everything.
 
 ## 7. Cooling system
+![Example coolant loop](images/coolant_loop.jpg)
+
 1. Remove all components except CPU & 1 stick RAM
 1. Mount reservoir & pump
 1. Screw fill port and drain port into case
