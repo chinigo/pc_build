@@ -1,4 +1,6 @@
-# Components
+# Parts
+
+## Components
 
 | **Component**       | **Model**     | **Image**                                                                                                                                                            | **Notes**                                                                                                                                                                                                                                                      |
 |---------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +22,7 @@
 | GPU water block     | *TBD*         |                                                                                                                                                                      | Replaces housing of GPU, presses a metal plate tightly against hot GPU components, flushes coolant across other side of that plate. Presents compression fittings.                                                                                             |
 
 
-# Fittings + Plumbing
+## Fittings + Plumbing
 
 All fittings need to match your tubing diameter (the component-side is a standard size, don't worry about it).
 
@@ -35,7 +37,7 @@ All fittings need to match your tubing diameter (the component-side is a standar
 | Compression fittings   | *TBD*         | [![Straight fitting](images/straight_fitting.png)](https://www.primochill.com/collections/flex-sx-1-2-x-3-4/products/primochill-1-2in-x-3-4in-flexsx-series-compression-fitting-silver-nickel) [![Angled fitting](images/angled_fitting.jpg)](https://www.primochill.com/collections/rotary/products/bykski-g-14-male-to-female-45-degree-rotary-elbow-fitting-silver-b-rd45-x)   | Available in straight, 45°, and 90° angles. The rotary angled ones are nice because you can adjust tube orientation by spinning fitting. Mix and match to fit case.   |
 
 
-# Tools
+## Tools
 
 | **Tool**              | **Purpose**                             | **Image**                                                                                                                                                                                           | **Chinigo has?**   | **Notes**                                                                                                                                            |
 |-----------------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,7 +51,7 @@ All fittings need to match your tubing diameter (the component-side is a standar
 | Flush cut snips       | Cutting zip ties                        | [![Flush cut snips](images/flush_cut_snips.jpg)](https://smile.amazon.com/Kaisi-Diagonal-Cutting-Precision-Electronics/dp/B076BP21CC/ref=sr_1_4?keywords=flush+cut+snip&qid=1578426197&s=hi&sr=1-4) | N                  |                                                                                                                                                      |
 
 
-# Hardware
+## Hardware
 
 | **Hardware**           | **Purpose**                                                            | **Image**                                                                                                                                     | **Chinigo has?**   | **Notes**                                                                                                                                            |
 |------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +63,7 @@ All fittings need to match your tubing diameter (the component-side is a standar
 | PWM cable extensions   | So you don't have to compromise fan cable routing due to short cables. | [![PWM cable extensions](images/pwm_cable_extensions.jpg)](https://www.amazon.com/extension-cable-Black-Sleeving-FC44PWM-12BKS/dp/B0055OLY88) | N                  |                                                                                                                                                      |
 
 
-# Supplies
+## Supplies
 | **Supply**                              | **Purpose**                                                               | **Chinigo has?** | **Notes**                                                                                                                                                                      |
 |-----------------------------------------|---------------------------------------------------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Thermal paste                           | Ensure good thermal transfer between CPU/GPU's IHS and cooler/water block | Y                | Hopefully you're not slopping enough of it on to short a component, but get a nonconductive one anyhow just to be safe. Spreading the paste is a bit of an art.                |
