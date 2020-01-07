@@ -2,7 +2,7 @@
 
 | **Component**       | **Model**     | **Image**                                                                                                                                                            | **Notes**                                                                                                                                                                                                                                                      |
 |---------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Case                | *TBD*         |                                                                                                                                                                      | Bigger is better, really. More space for ambient air cooling, easier to work in, prettier when it's not cluttered.                                                                                                                                             |
+| Case                | *TBD*         |                                                                                                                                                                      | Bigger is better, really. More space for ambient air cooling, easier to work in, prettier when it's not cluttered. Look for a case w/a dedicated fill & drain port, or plan on drilling them into the case w/a hole saw.                                       |
 | Power Supply        | *TBD*         |                                                                                                                                                                      | Spring for a "fully modular" PSU, which will let you remove power cables you don't need. In practice, most are unusued. Choose capacity by adding TDP of CPU, GPU, pump, fans, and adding a healthy amount of headroom. Overcapacity is better than under!     |
 | Motherboard         | *TBD*         |                                                                                                                                                                      | Verify compatibility w/CPU socket and RAM spec. Make sure fan headers support PWM (many have a dual PWM/DC mode you can toggle from BIOS).                                                                                                                     |
 | CPU                 | *TBD*         |                                                                                                                                                                      |                                                                                                                                                                                                                                                                |
@@ -22,16 +22,16 @@
 
 # Fittings + Plumbing
 
-All fittings need to match your tubing diameter (the component-side is a standard size, don't worry about it). Get bigger tubing: larger ID = higher fluid volume = lower temps, thicker tube wall = less likely to kink. I'd go with 1/2" ID x 3/4" OD.
+All fittings need to match your tubing diameter (the component-side is a standard size, don't worry about it).
 
 | **Fitting**            | **Model**     | **Image**                                                                                                                                                                                                                                                                                                                                                                         | **Notes**                                                                                                                                                             |
 |------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | T joint                | *TBD*         | [![T joint](images/t_joint.jpg)](https://www.ekwb.com/shop/ek-af-t-splitter-3f-g1-4-black-nickel)                                                                                                                                                                                                                                                                                 | Needed to plumb in spigot, if pump doesn't have dedicated outlet.                                                                                                     |
 | Spigot                 | *TBD*         | [![Spigot](images/spigot.png)](https://www.primochill.com/products/primochill-female-to-female-g-1-4-drain-ball-valve-silver?_pos=2&_sid=4259efa71&_ss=r)                                                                                                                                                                                                                         | Open to drain loop.                                                                                                                                                   |
-| Fill port              | *TBD*         | [![Fill port](images/fill_port.jpg)](https://www.primochill.com/products/primochill-fillport-pass-thru-fitting-silver-nickel?_pos=5&_sid=a7c82d743&_ss=r)                                                                                                                                                                                                                         | Same as drain port.
+| Fill port              | *TBD*         | [![Fill port](images/fill_port.jpg)](https://www.primochill.com/products/primochill-fillport-pass-thru-fitting-silver-nickel?_pos=5&_sid=a7c82d743&_ss=r)                                                                                                                                                                                                                         | Same as drain port.                                                                                                                                                   |
 | Drain port             | *TBD*         | [![Drain port](images/fill_port.jpg)](https://www.primochill.com/products/primochill-fillport-pass-thru-fitting-silver-nickel?_pos=5&_sid=a7c82d743&_ss=r)                                                                                                                                                                                                                        | Same as fill port.                                                                                                                                                    |
 | Fill/drain port cap    | *TBD*         | [![Fill/drain port cap](images/fill_port_cap.png)](https://www.primochill.com/products/primochill-g-1-4-knurled-brass-plug-silver?_pos=8&_sid=d6b51cda0&_ss=r)                                                                                                                                                                                                                    | For when you're not filling or draining loop. Some fill ports come with cap included.                                                                                 |
-| Flex tubing            | *TBD*         | [![Flex tubing](images/flex_tubing.jpg)](https://www.primochill.com/collections/retail-tubing-1-2-x-3-4/products/primoflex-advanced-lrt-flexible-tubing-1-2in-id-x-3-4in-od-retail-bundle-10ft-pack-crystal-clear)                                                                                                                                                                |                                                                                                                                                                       |
+| Flex tubing            | *TBD*         | [![Flex tubing](images/flex_tubing.jpg)](https://www.primochill.com/collections/retail-tubing-1-2-x-3-4/products/primoflex-advanced-lrt-flexible-tubing-1-2in-id-x-3-4in-od-retail-bundle-10ft-pack-crystal-clear)                                                                                                                                                                | Get bigger tubing: larger ID = higher fluid volume = lower temps, thicker tube wall = less likely to kink. I'd go with 1/2" ID x 3/4" OD.                             |
 | Compression fittings   | *TBD*         | [![Straight fitting](images/straight_fitting.png)](https://www.primochill.com/collections/flex-sx-1-2-x-3-4/products/primochill-1-2in-x-3-4in-flexsx-series-compression-fitting-silver-nickel) [![Angled fitting](images/angled_fitting.jpg)](https://www.primochill.com/collections/rotary/products/bykski-g-14-male-to-female-45-degree-rotary-elbow-fitting-silver-b-rd45-x)   | Available in straight, 45°, and 90° angles. The rotary angled ones are nice because you can adjust tube orientation by spinning fitting. Mix and match to fit case.   |
 
 
@@ -81,35 +81,36 @@ All fittings need to match your tubing diameter (the component-side is a standar
 1. Mount all the components in case to get a sense of possible layouts, fan placements, clearances, tube routing, cable routing, etc.
 
 ## 2. Core components test
-1. Mount motherboard in case
-1. Mount CPU
-1. Mount air cooler
-1. Seat one stick RAM
-1. Hook up PSU temporarily
-1. Boot test (success = BIOS screen)
+1. Mount motherboard in case.
+1. Mount CPU.
+1. Mount air cooler.
+1. Seat one stick RAM.
+1. Hook up PSU temporarily.
+1. Boot test (success = BIOS screen).
 
 ## 3. Additional components test
-1. Seat NVMe
-1. Seat GPU
-1. Seat all RAM
-1. Mount SSD
-1. Run cables
-1. Hook up PSU temporarily
-1. Boot test with video hooked up to GPU (success = BIOS aware of drives)
+1. Seat NVMe.
+1. Seat GPU.
+1. Seat all RAM.
+1. Mount SSD.
+1. Run cables.
+1. Hook up PSU temporarily.
+1. Boot test with video hooked up to GPU. (Success = BIOS aware of drives and video comes out of GPU.)
 
 ## 4. Mount GPU water block
-1. Remove factory case, disconnect fan
-1. Cut & place thermal pads
-1. Spread thermal paste
-1. Mount water block
-1. Connect compression fittings
-1. Seat GPU
+1. Remove factory housing, disconnect fan.
+1. Cut & place thermal pads.
+1. Spread thermal paste.
+1. Mount water block.
+1. Connect compression fittings.
+1. Seat GPU.
 
 ## 5. Mount CPU water block
-1. Remove air cooler
-1. Spread thermal paste
-1. Connect compression fittings
-1. Mount water block
+1. Remove air cooler.
+1. Clean off old thermal paste.
+1. Spread thermal paste.
+1. Connect compression fittings.
+1. Mount water block.
 
 ## 6. Flush radiator
 1. Outside of case (or temporarily mounted, whatever's easier), run tubing between radiator and pump/reservoir. Plumb in a T joint, a spigot, and a drain tube.
@@ -117,8 +118,8 @@ All fittings need to match your tubing diameter (the component-side is a standar
 1. Connect power supply to motherboard, and pump to CPUFAN1.
 1. Fill reservoir with dilute acetic acid (5% - 10%). Warm is good, but not necessary: time can substitute for temperature. Def don't want boiling!
 1. Boot to BIOS, run pump for an hour or so.
-1. Flush loop once with dilute bicarbonate solution to neutralize.
-1. Open spigot, drain most fluid with pump (but never run pump dry!!), refill w/distilled water.
+1. Open spigot, drain most fluid with pump (but never run pump dry!!), refill w/dilute bicarbonate solution.
+1. Flush loop once with dilute bicarbonate solution to neutralize. (Never run pump dry!!)
 1. Flush loop with distilled water until clear (say, 3x). (Never run pump dry!!)
 1. Drain loop most of the way with pump. Drain loop completely by tilting and shaking. (Never run pump dry!!)
 1. Disconnect everything.
@@ -126,13 +127,13 @@ All fittings need to match your tubing diameter (the component-side is a standar
 ## 7. Cooling system
 ![Example coolant loop](images/coolant_loop.jpg)
 
-1. Remove all components except CPU & 1 stick RAM
-1. Mount reservoir & pump
-1. Screw fill port and drain port into case
-1. Mount radiator fans to radiator
-1. Mount additional case fans
-1. Mount radiator to case
-1. Cut & run flex tubing between components. Hand tighten compression fittings only, but tighten them good!
+1. Remove all components except CPU & 1 stick RAM.
+1. Mount reservoir & pump.
+1. Screw fill port and drain port into case.
+1. Mount radiator fans to radiator.
+1. Mount additional case fans.
+1. Mount radiator to case.
+1. Cut & run flex tubing between components. Hand tighten compression fittings only, but tighten them good!.
 1. Plumb spigot to drain port (if pump has one), or add a T joint in the outlet line (if not).
 1. Plumb spigot outlet to drain port.
 1. Plumb fill port to top of reservoir.
@@ -153,7 +154,7 @@ All fittings need to match your tubing diameter (the component-side is a standar
 1. Install Windows.
 1. Install latest Radeon drivers.
 1. Install FPSMonitor, copy Chinigo's config.
-1. Install passmark or something to generate a buncha CPU and GPU load
+1. Install Passmark or something to generate a buncha CPU and GPU load
 
 ## 10. GPU test
 1. Connect GPU power, connect video out to GPU.
