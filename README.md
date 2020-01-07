@@ -74,7 +74,7 @@
 ## 1. Dry fit
 1. Mount all the components in case to get a sense of possible layouts, fan placements, clearances, tube routing, cable routing, etc.
 
-## Core components test
+## 2. Core components test
 1. Mount motherboard in case
 1. Mount CPU
 1. Mount air cooler
@@ -82,7 +82,7 @@
 1. Hook up PSU temporarily
 1. Boot test (success = BIOS screen)
 
-## 2. Additional components test
+## 3. Additional components test
 1. Seat NVMe
 1. Seat GPU
 1. Seat all RAM
@@ -91,7 +91,7 @@
 1. Hook up PSU temporarily
 1. Boot test with video hooked up to GPU (success = BIOS aware of drives)
 
-## 3. Mount GPU water block
+## 4. Mount GPU water block
 1. Remove factory case, disconnect fan
 1. Cut & place thermal pads
 1. Spread thermal paste
@@ -99,13 +99,13 @@
 1. Connect compression fittings
 1. Seat GPU
 
-## 4. Mount CPU water block
+## 5. Mount CPU water block
 1. Remove air cooler
 1. Spread thermal paste
 1. Connect compression fittings
 1. Mount water block
 
-## 5. Flush radiator
+## 6. Flush radiator
 1. Outside of case (or temporarily mounted, whatever's easier), run tubing between radiator and pump/reservoir. Plumb in a T joint, a spigot, and a drain tube.
 1. Mount motherboard, CPU w/air cooler, 1 stick RAM.
 1. Connect power supply to motherboard, and pump to CPUFAN1.
@@ -117,7 +117,7 @@
 1. Drain loop most of the way with pump. Drain loop completely by tilting and shaking. (Never run pump dry!!)
 1. Disconnect everything.
 
-## 6. Cooling system
+## 7. Cooling system
 1. Remove all components except CPU & 1 stick RAM
 1. Mount reservoir & pump
 1. Screw fill port and drain port into case
@@ -132,7 +132,7 @@
 1. Boot to BIOS. Be ready to add fluid as pump runs: the water level will drop as the fluid in the reservoir gets sucked into the loop.
 1. Run pump for a while to confirm no leaks. Note level of coolant in reservoir w/masking tape, drop tissue or construction paper across bottom of case so you'll see any drips. Confirm everything's dry and coolant level hasn't moved after an hour or so.
 
-## 7. Full system test
+## 8. Full system test
 1. Seat all components again.
 1. Run cables. Don't lock them down yet.
 1. Connect video output to onboard, disconnect GPU power (you don't want to run it until you can monitor its temp in case you fucked up GPU water block).
@@ -141,23 +141,23 @@
 1. Confirm BIOS aware of all components.
 1. Keep an eye on CPU temps while you're poking around. They should be nominal, this is as low a load as system will ever encounter.
 
-## 8. Install Windows
+## 9. Install Windows
 1. Install Windows.
 1. Install latest Radeon drivers.
 1. Install FPSMonitor, copy Chinigo's config.
 1. Install passmark or something to generate a buncha CPU and GPU load
 
-## 9. GPU test
+## 10. GPU test
 1. Connect GPU power, connect video out to GPU.
 1. Boot to Windows.
 1. Monitor GPU & CPU temps as you run the full Passmark suite. Slam it with load to establish temps under max thermal load.
 
-## 10. Final touches
+## 11. Final touches
 1. Lock down wiring.
 
-## 11. Overclock GPU
+## 12. Overclock GPU
 1. I got a 4% overall boost to clock speed without too much effort. Surprisingly straightforward.
 1. Confirm temps are acceptable w/increased thermal load due to overclocking.
 
-## 12. Overclock CPU
+## 13. Overclock CPU
 1. GPU is likely the bottleneck for most graphically-intensive games, but why not OC the CPU too? You've got oodles of cooling capacity to spare.
